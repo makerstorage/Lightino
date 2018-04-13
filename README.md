@@ -2,7 +2,21 @@
 ![Lightino STEAM Fidget Spinner](lightino.jpg)
 
 
-**Lightino STEAM Fidget Spinner**
+# Lightino STEAM Fidget Spinner
+
+## Getting Started
+
+1. Ensure you're using the latest Arduino IDE
+1. Select 'Arduino / Genuino Micro' from the Board menu under Tools
+1. Select the correct 'com port' for your device
+
+### Common Errors
+
+#### TXLED0 is not defined
+
+You need to ensure that the Arduino/Genuino Micro is selected as the board type. These boards have some pre-defined variables which are used in the example sketches in this project.
+
+## More information
 
 For more details, check out the product page at
 
